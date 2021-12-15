@@ -1,0 +1,122 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:http            0.0.0.0:*               LISTEN      32007/docker-proxy  
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN      432/sshd: /usr/sbin 
+tcp        0      0 0.0.0.0:https           0.0.0.0:*               LISTEN      31988/docker-proxy  
+tcp        0      0 0.0.0.0:xmpp-client     0.0.0.0:*               LISTEN      31967/docker-proxy  
+tcp        0      0 192.168.57.101:ssh      192.168.57.1:59112      ESTABLISHED 13049/sshd: root@pt 
+tcp6       0      0 [::]:http               [::]:*                  LISTEN      32013/docker-proxy  
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN      432/sshd: /usr/sbin 
+tcp6       0      0 [::]:https              [::]:*                  LISTEN      31993/docker-proxy  
+tcp6       0      0 [::]:xmpp-client        [::]:*                  LISTEN      31974/docker-proxy  
+udp        0      0 0.0.0.0:bootpc          0.0.0.0:*                           330/dhclient        
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ACC ]     STREAM     LISTENING     11912    382/containerd       /run/containerd/containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11951    446/dockerd          /var/run/docker/metrics.sock
+unix  2      [ ACC ]     STREAM     LISTENING     9701     199/systemd-journal  /run/systemd/journal/io.systemd.journal
+unix  2      [ ]         DGRAM                    25273    13052/systemd        /run/user/0/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     25276    13052/systemd        /run/user/0/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     25283    13052/systemd        /run/user/0/bus
+unix  2      [ ACC ]     STREAM     LISTENING     25285    13052/systemd        /run/user/0/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     25287    13052/systemd        /run/user/0/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     25289    13052/systemd        /run/user/0/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     25291    13052/systemd        /run/user/0/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     25293    13052/systemd        /run/user/0/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     25295    13052/systemd        /run/user/0/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     12175    446/dockerd          /var/run/docker/libnetwork/5aba805b9e11.sock
+unix  2      [ ACC ]     STREAM     LISTENING     53946    32027/containerd-sh  /run/containerd/s/7584e504bb321fd0f55437eafcbe3f99203b40e291f2b235b6dc9294588b5fa1
+unix  2      [ ACC ]     STREAM     LISTENING     29845    14604/containerd-sh  /run/containerd/s/caaf2e408ee952f0e9690706eff6159e9cf50972f75e120b98396655a9be28e1
+unix  2      [ ACC ]     STREAM     LISTENING     30024    14829/containerd-sh  /run/containerd/s/fa50eb0030ea3b6c8ff859d1624d740d8df75bef2dbe986081d6b0942b4cf156
+unix  2      [ ACC ]     STREAM     LISTENING     10009    1/init               /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     10011    1/init               /run/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     30372    15222/containerd-sh  /run/containerd/s/1c51f2c2c11b5625466f7c2aa3de2a1fb467a80cb918ec12bac21206233fe77e
+unix  3      [ ]         DGRAM                    9589     1/init               /run/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     9592     1/init               /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     9594     1/init               /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     9595     1/init               /run/systemd/io.system.ManagedOOM
+unix  2      [ ]         DGRAM                    9605     1/init               /run/systemd/journal/syslog
+unix  2      [ ACC ]     STREAM     LISTENING     9607     1/init               /run/systemd/fsck.progress
+unix  7      [ ]         DGRAM                    9611     1/init               /run/systemd/journal/dev-log
+unix  8      [ ]         DGRAM                    9613     1/init               /run/systemd/journal/socket
+unix  2      [ ACC ]     STREAM     LISTENING     9615     1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    10204    446/dockerd          @00001
+unix  2      [ ACC ]     SEQPACKET  LISTENING     9617     1/init               /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     11909    382/containerd       /run/containerd/containerd.sock.ttrpc
+unix  3      [ ]         STREAM     CONNECTED     11880    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11775    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    9738     224/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     11879    434/python3          
+unix  3      [ ]         STREAM     CONNECTED     10024    1/init               
+unix  3      [ ]         STREAM     CONNECTED     30034    14829/containerd-sh  /run/containerd/s/fa50eb0030ea3b6c8ff859d1624d740d8df75bef2dbe986081d6b0942b4cf156
+unix  3      [ ]         STREAM     CONNECTED     11953    446/dockerd          
+unix  2      [ ]         DGRAM                    9735     224/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     10212    382/containerd       /run/containerd/containerd.sock
+unix  3      [ ]         DGRAM                    9998     314/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     30028    382/containerd       
+unix  3      [ ]         STREAM     CONNECTED     11918    434/python3          
+unix  3      [ ]         STREAM     CONNECTED     11615    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11921    434/python3          
+unix  2      [ ]         DGRAM                    9743     1/init               
+unix  3      [ ]         STREAM     CONNECTED     10210    382/containerd       /run/containerd/containerd.sock
+unix  3      [ ]         STREAM     CONNECTED     11922    434/python3          
+unix  2      [ ]         DGRAM                    9992     314/systemd-timesyn  
+unix  3      [ ]         DGRAM                    9739     224/systemd-udevd    
+unix  3      [ ]         DGRAM                    9997     314/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     10209    446/dockerd          
+unix  3      [ ]         STREAM     CONNECTED     11760    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     9970     314/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     11558    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11869    369/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    10000    314/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     11435    224/systemd-udevd    
+unix  2      [ ]         DGRAM                    9703     199/systemd-journal  
+unix  3      [ ]         STREAM     CONNECTED     10193    369/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11806    369/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    10205    446/dockerd          
+unix  3      [ ]         STREAM     CONNECTED     11917    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     10104    382/containerd       
+unix  3      [ ]         DGRAM                    9999     314/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     11915    446/dockerd          
+unix  3      [ ]         STREAM     CONNECTED     10070    374/systemd-logind   
+unix  2      [ ]         DGRAM                    9982     330/dhclient         
+unix  3      [ ]         STREAM     CONNECTED     11805    369/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     10013    314/systemd-timesyn  
+unix  3      [ ]         DGRAM                    9591     1/init               
+unix  3      [ ]         DGRAM                    9590     1/init               
+unix  2      [ ]         DGRAM                    25185    13053/(sd-pam)       
+unix  3      [ ]         STREAM     CONNECTED     29681    14604/containerd-sh  
+unix  3      [ ]         STREAM     CONNECTED     25174    13052/systemd        
+unix  3      [ ]         STREAM     CONNECTED     29938    382/containerd       /run/containerd/containerd.sock.ttrpc
+unix  3      [ ]         STREAM     CONNECTED     29849    14604/containerd-sh  /run/containerd/s/caaf2e408ee952f0e9690706eff6159e9cf50972f75e120b98396655a9be28e1
+unix  3      [ ]         STREAM     CONNECTED     25279    369/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     53953    32027/containerd-sh  /run/containerd/s/7584e504bb321fd0f55437eafcbe3f99203b40e291f2b235b6dc9294588b5fa1
+unix  3      [ ]         STREAM     CONNECTED     25176    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    25195    13052/systemd        
+unix  3      [ ]         STREAM     CONNECTED     31244    15222/containerd-sh  
+unix  3      [ ]         STREAM     CONNECTED     30926    382/containerd       /run/containerd/containerd.sock.ttrpc
+unix  2      [ ]         STREAM     CONNECTED     27011    13049/sshd: root@pt  
+unix  3      [ ]         DGRAM                    25275    13052/systemd        
+unix  3      [ ]         STREAM     CONNECTED     30925    14829/containerd-sh  
+unix  3      [ ]         STREAM     CONNECTED     29548    382/containerd       
+unix  3      [ ]         STREAM     CONNECTED     25278    13052/systemd        
+unix  3      [ ]         STREAM     CONNECTED     53950    382/containerd       
+unix  2      [ ]         DGRAM                    27030    13049/sshd: root@pt  
+unix  3      [ ]         DGRAM                    25274    13052/systemd        
+unix  3      [ ]         STREAM     CONNECTED     54047    32027/containerd-sh  
+unix  3      [ ]         STREAM     CONNECTED     11804    369/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     30376    15222/containerd-sh  /run/containerd/s/1c51f2c2c11b5625466f7c2aa3de2a1fb467a80cb918ec12bac21206233fe77e
+unix  3      [ ]         STREAM     CONNECTED     11730    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    11729    368/cron             
+unix  3      [ ]         STREAM     CONNECTED     54048    382/containerd       /run/containerd/containerd.sock.ttrpc
+unix  3      [ ]         STREAM     CONNECTED     11725    368/cron             
+unix  3      [ ]         STREAM     CONNECTED     11860    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    11787    371/rsyslogd         
+unix  3      [ ]         STREAM     CONNECTED     11859    432/sshd: /usr/sbin  
+unix  2      [ ]         DGRAM                    11835    374/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     31075    382/containerd       
+unix  3      [ ]         STREAM     CONNECTED     11868    374/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     31245    382/containerd       /run/containerd/containerd.sock.ttrpc
+unix  3      [ ]         STREAM     CONNECTED     11803    369/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     11727    369/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     11744    1/init               /run/systemd/journal/stdout
